@@ -1,0 +1,311 @@
+{
+    "@context": [
+        "https://stuchalk.github.io/scidata/contexts/scidata.jsonld",
+        "https://stuchalk.github.io/scidata/contexts/chemtwin.jsonld",
+        {
+            "sdo": "https://stuchalk.github.io/scidata/ontology/scidata.owl#",
+            "obo": "http://purl.obolibrary.org/obo/",
+            "ss": "https://semanticscience.org/resource/",
+            "atc": "http://purl.bioontology.org/ontology/ATC/",
+            "w3i": "https://w3id.org/skgo/modsci#"
+        },
+        {"@base": "https://scidata.unf.edu/chemtwin_QTBSBXVTEAMEQO-UHFFFAOYSA-N/"}
+    ],
+    "@id": "https://scidata.unf.edu/facet/00007750",
+    "generatedAt": "2021-07-06 10:21:27.973788",
+    "version": 2,
+    "@graph": {
+        "@id": "https://scidata.unf.edu/chemtwin_QTBSBXVTEAMEQO-UHFFFAOYSA-N/",
+        "@type": "sdo:scidataFramework",
+        "uid": "chemtwin_QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+        "title": "SciData JSON-LD chemical twin file for acetic acid",
+        "authors": [
+            {
+                "@id": "author/1/",
+                "@type": "dc:author",
+                "name": "Stuart Chalk",
+                "orcid": "0000-0002-0703-7776"
+            }
+        ],
+        "description": "Metadata, identifiers, descriptors and molecular graph about a chemical substance",
+        "publisher": "Chalk Research Laboratory, Chalk Research Group, University of North Florida",
+        "version": "1.1",
+        "keywords": [
+            "chemical twin",
+            "digital twin",
+            "chemical substance"
+        ],
+        "permalink": "https://scidata.unf.edu/tranche/chemtwin/test/chemtwin_QTBSBXVTEAMEQO-UHFFFAOYSA-N.jsonld",
+        "toc": [
+            "sdo:scientificData",
+            "sdo:system",
+            "sdo:substance",
+            "dc:source",
+            "dc:rights"
+        ],
+        "ids": [
+            "obo:IAO_0000578",
+            "ss:CHEMINF_000123",
+            "ss:CHEMINF_000022",
+            "obo:NCIT_C1940",
+            "obo:CHEBI_25555",
+            "ss:SIO_011118",
+            "obo:CHEBI_25805",
+            "obo:CHEBI_27594",
+            "obo:CHEBI_49637"
+        ],
+        "scidata": {
+            "@id": "scidata",
+            "@type": "sdo:scientificData",
+            "discipline": "w3i:Chemistry",
+            "system": {
+                "@id": "system/",
+                "@type": "sdo:system",
+                "facets": [
+                    {
+                        "@id": "substance/1/",
+                        "@type": "sdo:substance",
+                        "iupacname": "acetic acid",
+                        "formula": "C2H4O2",
+                        "molweight": 60.05,
+                        "monoisotopicmass": 60.0211,
+                        "identifiers": {
+                            "@id": "identifier/",
+                            "@type": "obo:IAO_0000578",
+                            "inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
+                            "inchikey": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+                            "csmiles": "CC(=O)O",
+                            "ismiles": "CC(=O)O",
+                            "casrn": "64-19-7",
+                            "pubchem": "176",
+                            "chemspider": "171",
+                            "chebi": "15366",
+                            "chembl": "CHEMBL539",
+                            "reaxys": "506007",
+                            "dsstox": "DTXSID5024394",
+                            "gmelin": "1380",
+                            "wikidata": null
+                        },
+                        "descriptors": {
+                            "@id": "descriptor/",
+                            "@type": "ss:CHEMINF_000123",
+                            "heavy_atom": "4",
+                            "atom_chiral": "0",
+                            "bond_chiral": "0",
+                            "isotope_atom": "0",
+                            "h_bond_acceptor": "2",
+                            "h_bond_donor": "1",
+                            "rotatable_bond": "0",
+                            "covalent_unit": "1",
+                            "tautomers": "-1",
+                            "aromatic_rings": "0",
+                            "atccode": [
+                                "G",
+                                "S",
+                                "G01",
+                                "S02",
+                                "G01A",
+                                "S02A",
+                                "G01AD",
+                                "S02AA",
+                                "G01AD02",
+                                "S02AA10"
+                            ],
+                            "chemont": [
+                                "CHEMONTID:0000000",
+                                "CHEMONTID:0000264",
+                                "CHEMONTID:0000265",
+                                "CHEMONTID:0001205",
+                                "CHEMONTID:0001205",
+                                "CHEMONTID:0001137",
+                                "CHEMONTID:0001831",
+                                "CHEMONTID:0003940",
+                                "CHEMONTID:0004150"
+                            ]
+                        },
+                        "molgraph": {
+                            "@id": "molgraph/",
+                            "@type": "ss:CHEMINF_000022",
+                            "elements": [
+                                {
+                                    "@id": "element/1/",
+                                    "@type": "obo:NCIT_C1940",
+                                    "iupacname": "Oxygen",
+                                    "element": "obo:CHEBI_25805"
+                                },
+                                {
+                                    "@id": "element/2/",
+                                    "@type": "obo:NCIT_C1940",
+                                    "iupacname": "Carbon",
+                                    "element": "obo:CHEBI_27594"
+                                },
+                                {
+                                    "@id": "element/3/",
+                                    "@type": "obo:NCIT_C1940",
+                                    "iupacname": "Hydrogen",
+                                    "element": "obo:CHEBI_49637"
+                                }
+                            ],
+                            "atoms": [
+                                {
+                                    "@id": "atom/1/",
+                                    "@type": "obo:CHEBI_33250",
+                                    "element": "element/1/",
+                                    "xcoord": "3.7320",
+                                    "ycoord": "0.7500",
+                                    "zcoord": "0.0000",
+                                    "singlebonds": 2
+                                },
+                                {
+                                    "@id": "atom/2/",
+                                    "@type": "obo:CHEBI_33250",
+                                    "element": "element/1/",
+                                    "xcoord": "2.8660",
+                                    "ycoord": "-0.7500",
+                                    "zcoord": "0.0000",
+                                    "doublebonds": 1
+                                },
+                                {
+                                    "@id": "atom/3/",
+                                    "@type": "obo:CHEBI_33250",
+                                    "element": "element/2/",
+                                    "xcoord": "2.0000",
+                                    "ycoord": "0.7500",
+                                    "zcoord": "0.0000",
+                                    "singlebonds": 4
+                                },
+                                {
+                                    "@id": "atom/4/",
+                                    "@type": "obo:CHEBI_33250",
+                                    "element": "element/2/",
+                                    "xcoord": "2.8660",
+                                    "ycoord": "0.2500",
+                                    "zcoord": "0.0000",
+                                    "singlebonds": 2,
+                                    "doublebonds": 1
+                                },
+                                {
+                                    "@id": "atom/5/",
+                                    "@type": "obo:CHEBI_33250",
+                                    "element": "element/3/",
+                                    "xcoord": "2.3100",
+                                    "ycoord": "1.2869",
+                                    "zcoord": "0.0000",
+                                    "singlebonds": 1
+                                },
+                                {
+                                    "@id": "atom/6/",
+                                    "@type": "obo:CHEBI_33250",
+                                    "element": "element/3/",
+                                    "xcoord": "1.4631",
+                                    "ycoord": "1.0600",
+                                    "zcoord": "0.0000",
+                                    "singlebonds": 1
+                                },
+                                {
+                                    "@id": "atom/7/",
+                                    "@type": "obo:CHEBI_33250",
+                                    "element": "element/3/",
+                                    "xcoord": "1.6900",
+                                    "ycoord": "0.2131",
+                                    "zcoord": "0.0000",
+                                    "singlebonds": 1
+                                },
+                                {
+                                    "@id": "atom/8/",
+                                    "@type": "obo:CHEBI_33250",
+                                    "element": "element/3/",
+                                    "xcoord": "4.2690",
+                                    "ycoord": "0.4400",
+                                    "zcoord": "0.0000",
+                                    "singlebonds": 1
+                                }
+                            ],
+                            "bonds": [
+                                {
+                                    "@id": "bond/1/",
+                                    "@type": "ss:SIO_011118",
+                                    "order": "1",
+                                    "atoms": [
+                                        "atom/1/",
+                                        "atom/4/"
+                                    ]
+                                },
+                                {
+                                    "@id": "bond/2/",
+                                    "@type": "ss:SIO_011118",
+                                    "order": "1",
+                                    "atoms": [
+                                        "atom/1/",
+                                        "atom/8/"
+                                    ]
+                                },
+                                {
+                                    "@id": "bond/3/",
+                                    "@type": "ss:SIO_011118",
+                                    "order": "2",
+                                    "atoms": [
+                                        "atom/2/",
+                                        "atom/4/"
+                                    ]
+                                },
+                                {
+                                    "@id": "bond/4/",
+                                    "@type": "ss:SIO_011118",
+                                    "order": "1",
+                                    "atoms": [
+                                        "atom/3/",
+                                        "atom/4/"
+                                    ]
+                                },
+                                {
+                                    "@id": "bond/5/",
+                                    "@type": "ss:SIO_011118",
+                                    "order": "1",
+                                    "atoms": [
+                                        "atom/3/",
+                                        "atom/5/"
+                                    ]
+                                },
+                                {
+                                    "@id": "bond/6/",
+                                    "@type": "ss:SIO_011118",
+                                    "order": "1",
+                                    "atoms": [
+                                        "atom/3/",
+                                        "atom/6/"
+                                    ]
+                                },
+                                {
+                                    "@id": "bond/7/",
+                                    "@type": "ss:SIO_011118",
+                                    "order": "1",
+                                    "atoms": [
+                                        "atom/3/",
+                                        "atom/7/"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "sources": [
+            {
+                "@id": "source/1/",
+                "@type": "dc:source",
+                "title": "Chalk Research Group - Chemical twin test",
+                "url": "https://scidata.unf.edu/tranche/chemtwin/test/"
+            }
+        ],
+        "rights": [
+            {
+                "@id": "rights/1/",
+                "@type": "dc:rights",
+                "holder": "Chalk Research Group, University of North Florida",
+                "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+            }
+        ]
+    }
+}

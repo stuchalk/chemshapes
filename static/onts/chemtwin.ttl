@@ -1,0 +1,170 @@
+@prefix : <https://stuchalk.github.io/scidata/ontology/chemtwin.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://stuchalk.github.io/scidata/ontology/chemtwin.owl> .
+
+<https://stuchalk.github.io/scidata/ontology/chemtwin.owl> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#hasConstituentAtom
+:hasConstituentAtom rdf:type owl:ObjectProperty ;
+                    rdfs:domain :molecule ;
+                    owl:inverseOf :isConstituentAtomOf ;
+                    rdfs:range :atom .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#hasConstituentBond
+:hasConstituentBond rdf:type owl:ObjectProperty ;
+                    rdfs:domain :molecule ;
+                    rdfs:range :bond .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#isConstituentAtomOf
+:isConstituentAtomOf rdf:type owl:ObjectProperty ;
+                     rdfs:domain :atom ;
+                     owl:inverseOf :hasConstituentAtom ;
+                     rdfs:range :molecule .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#isConstituentBondOf
+:isConstituentBondOf rdf:type owl:ObjectProperty ;
+                     rdfs:domain :bond ;
+                     owl:inverseOf :hasConstituentBond ;
+                     rdfs:range :molecule .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#hasBondedAtom
+:hasBondedAtom rdf:type owl:ObjectProperty ;
+               rdfs:domain :bond ;
+               owl:inverseOf :isBondedAtomOf ;
+               rdfs:range :atom .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#isBondedAtomOf
+:isBondedAtomOf rdf:type owl:ObjectProperty ;
+               rdfs:domain :bond ;
+               owl:inverseOf :hasBondedAtom ;
+               rdfs:range :atom .
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#bond_order
+:hasBondOrder rdf:type owl:DatatypeProperty ;
+           rdfs:domain :bond ;
+           rdfs:range xsd:positiveInteger .
+
+:hasAtomicNumber rdf:type owl:DatatypeProperty ;
+              rdfs:domain :atom ;
+              rdfs:range xsd:positiveInteger .
+
+:hasAtomCharge rdf:type owl:DatatypeProperty ;
+               rdfs:domain :atom ;
+               rdfs:range xsd:int .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#molecule
+:molecule rdf:type owl:Class .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#atom
+:atom rdf:type owl:Class .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#bond
+:bond rdf:type owl:Class .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#element
+:element rdf:type owl:Class .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#carbon
+:carbon rdf:type owl:Class ;
+        rdfs:subClassOf :atom ;
+        rdfs:subClassOf :element .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#oxygen
+:oxygen rdf:type owl:Class ;
+        rdfs:subClassOf :atom ;
+        rdfs:subClassOf :element .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#nitrogen
+:nitrogen rdf:type owl:Class ;
+        rdfs:subClassOf :atom ;
+        rdfs:subClassOf :element .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#hydrogen
+:hydrogen rdf:type owl:Class ;
+        rdfs:subClassOf :atom ;
+        rdfs:subClassOf :element .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#bromine
+:bromine rdf:type owl:Class ;
+        rdfs:subClassOf :atom ;
+        rdfs:subClassOf :element .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#chlorine
+:chlorine rdf:type owl:Class ;
+        rdfs:subClassOf :atom ;
+        rdfs:subClassOf :element .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#chlorine
+:fluorine rdf:type owl:Class ;
+        rdfs:subClassOf :atom ;
+        rdfs:subClassOf :element .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#covalentSingleBond
+:covalentSingleBond rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasBondOrder ;
+                                   rdf:value "1"^^xsd:positiveInteger
+                                 ] ;
+                    rdfs:subClassOf :bond ;
+                    rdfs:domain :atom ;
+                    rdfs:range :atom ;
+                    rdfs:label "covalent single bond"@en .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#covalentDoubleBond
+:covalentDoubleBond rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasBondOrder ;
+                                   rdf:value "2"^^xsd:positiveInteger
+                                 ] ;
+                    rdfs:subClassOf :bond ;
+                    rdfs:domain :atom ;
+                    rdfs:range :atom ;
+                    rdfs:label "covalent double bond"@en .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#covalentTripleBond
+:covalentTripleBond rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasBondOrder ;
+                                   rdf:value "3"^^xsd:nonNegativeInteger
+                                 ] ;
+                    rdfs:subClassOf :bond ;
+                    rdfs:label "covalent triple bond"@en .
+
+###  https://stuchalk.github.io/scidata/ontology/chemtwin.owl#ionicBond
+:ionicBond rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                          owl:onProperty :hasAtomCharge ;
+                                          rdfs:range xsd:int
+                                 ] ;
+                    rdfs:subClassOf :bond ;
+                    rdfs:label "ionic bond"@en .
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :atom )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :bond )
+] .

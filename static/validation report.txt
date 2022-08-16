@@ -1,0 +1,279 @@
+/Users/n00002621/.local/share/virtualenvs/chemshapes-jx7D4Fdy/bin/python /Users/n00002621/PycharmProjects/chemshapes/chemtwins/chemexample.py 
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/>
+	Value Node: Literal("1" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> is closed. It cannot have value: Literal("1" = None, datatype=xsd1:integer)
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/6/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/6/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/>
+	Value Node: Literal("1" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> is closed. It cannot have value: Literal("1" = None, datatype=xsd1:integer)
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/1/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/1/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/>
+	Value Node: Literal("2" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> is closed. It cannot have value: Literal("2" = None, datatype=xsd1:integer)
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/5/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/5/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/>
+	Value Node: Literal("1" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> is closed. It cannot have value: Literal("1" = None, datatype=xsd1:integer)
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/4/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/4/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/>
+	Value Node: Literal("1" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> is closed. It cannot have value: Literal("1" = None, datatype=xsd1:integer)
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/7/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/7/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/>
+	Value Node: Literal("1" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> is closed. It cannot have value: Literal("1" = None, datatype=xsd1:integer)
+
+False
+b'@prefix cto: <https://stuchalk.github.io/scidata/ontology/chemtwin.owl#> .\n@prefix mol: <https://scidata.unf.edu/shapes/molecule.test#> .\n@prefix sh: <http://www.w3.org/ns/shacl#> .\n@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n\n[] a sh:ValidationReport ;\n    sh:conforms false ;\n    sh:result [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> is closed. It cannot have value: Literal(\\"1\\" = None, datatype=xsd1:integer)" ;\n            sh:resultPath cto:bondOrder ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value "1"^^<https://www.w3.org/2001/XMLSchema#integer> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> is closed. It cannot have value: Literal(\\"2\\" = None, datatype=xsd1:integer)" ;\n            sh:resultPath cto:bondOrder ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value "2"^^<https://www.w3.org/2001/XMLSchema#integer> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/1/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/1/> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> is closed. It cannot have value: Literal(\\"1\\" = None, datatype=xsd1:integer)" ;\n            sh:resultPath cto:bondOrder ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value "1"^^<https://www.w3.org/2001/XMLSchema#integer> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> is closed. It cannot have value: Literal(\\"1\\" = None, datatype=xsd1:integer)" ;\n            sh:resultPath cto:bondOrder ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value "1"^^<https://www.w3.org/2001/XMLSchema#integer> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> is closed. It cannot have value: Literal(\\"1\\" = None, datatype=xsd1:integer)" ;\n            sh:resultPath cto:bondOrder ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value "1"^^<https://www.w3.org/2001/XMLSchema#integer> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> is closed. It cannot have value: Literal(\\"1\\" = None, datatype=xsd1:integer)" ;\n            sh:resultPath cto:bondOrder ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value "1"^^<https://www.w3.org/2001/XMLSchema#integer> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/7/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/7/> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/5/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/5/> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/6/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/6/> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/> ],\n        [ a sh:ValidationResult ;\n            sh:focusNode <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> ;\n            sh:resultMessage "Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/4/>" ;\n            sh:resultPath cto:hasBondedAtom ;\n            sh:resultSeverity sh:Violation ;\n            sh:sourceConstraintComponent sh:ClosedConstraintComponent ;\n            sh:sourceShape mol:COBondShape ;\n            sh:value <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/4/> ] .\n\n'
+Validation Report
+Conforms: False
+Results (18):
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/>
+	Value Node: Literal("1" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> is closed. It cannot have value: Literal("1" = None, datatype=xsd1:integer)
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/2/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/6/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/6/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/>
+	Value Node: Literal("1" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/5/> is closed. It cannot have value: Literal("1" = None, datatype=xsd1:integer)
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/1/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/1/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/>
+	Value Node: Literal("2" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/1/> is closed. It cannot have value: Literal("2" = None, datatype=xsd1:integer)
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/5/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/5/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/>
+	Value Node: Literal("1" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/4/> is closed. It cannot have value: Literal("1" = None, datatype=xsd1:integer)
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/4/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/4/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/2/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/>
+	Value Node: Literal("1" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/3/> is closed. It cannot have value: Literal("1" = None, datatype=xsd1:integer)
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/7/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/7/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/>
+	Value Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+	Result Path: cto:hasBondedAtom
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> is closed. It cannot have value: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/atom/3/>
+Constraint Violation in ClosedConstraintComponent (http://www.w3.org/ns/shacl#ClosedConstraintComponent):
+	Severity: sh:Violation
+	Source Shape: mol:COBondShape
+	Focus Node: <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/>
+	Value Node: Literal("1" = None, datatype=xsd1:integer)
+	Result Path: cto:bondOrder
+	Message: Node <https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/bond/6/> is closed. It cannot have value: Literal("1" = None, datatype=xsd1:integer)
+
+
+Process finished with exit code 0
