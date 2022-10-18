@@ -1,3 +1,4 @@
+""" code to validate jsonld using shacl """
 from pyshacl import validate
 from os import path
 

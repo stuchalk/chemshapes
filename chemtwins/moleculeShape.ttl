@@ -1,9 +1,3 @@
-# baseURI: https://scidata.unf.edu/shapes/molecule.test
-# imports: http://datashapes.org/dash
-# prefix: mol
-
-@prefix dash: <http://datashapes.org/dash#> .
-@prefix mol: <https://scidata.unf.edu/shapes/molecule.test#> .
 @prefix cea: <https://stuchalk.github.io/scidata/ontology/chemelements.owl#> .
 @prefix cto: <https://stuchalk.github.io/scidata/ontology/chemtwin.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -12,91 +6,23 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://scidata.unf.edu/shapes/molecule.test>
-  rdf:type owl:Ontology ;
-  rdfs:label "Test of molecule shapes" ;
-  owl:imports <https://datashapes.org/dash> ;
-  owl:versionInfo "Created by Stuart Chalk" ;
+<https://stuchalk.github.io/scidata/ontology/chemtwin.owl>
+    a owl:Ontology ;
+    rdfs:isDefinedBy <https://stuchalk.github.io/scidata/ontology/chemtwin.owl> ;
+    rdfs:label "ChemTwin Ontology" ;
 .
 
-#mol:MoleculeShape
-#  rdf:type sh:NodeShape ;
-#  sh:closed "true"^^xsd:boolean ;
-#  sh:targetClass cto:molecule ;
-#  sh:ignoredProperties (
-#      rdf:type
-#    ) ;
-#  sh:property mol:minatoms ;
-#  sh:property mol:minbonds ;
-#.
-
-mol:minatoms
-  sh:path cto:hasConstituentAtom ;
-  sh:datatype cto:atom ;
-  sh:minCount 2 ;
-  sh:message "Must have two or more atoms to be a molecule" ;
-.
-
-mol:minbonds
-  sh:path cto:hasConstituentBond ;
-  sh:datatype cto:bond ;
-  sh:minCount 1 ;
-  sh:message "Must have at least one bond to be a molecule" ;
-.
-
-mol:COBondShape
-  a sh:NodeShape ;
-  sh:targetClass cto:bond ;
-  sh:property [
-                sh:path cto:hasBondedAtom ;
-                sh:minCount 2;
-                sh:maxCount 2;
-              ]
-        ;
-  sh:property [ # a double bond
-                sh:path cto:hasBondOrder ;
-                sh:hasValue 2 ;
-              ]
-        ;
-  sh:property [
-                sh:path cto:hasBondedAtom ;
-                sh:node [
-                        sh:targetClass cto:atom ;
-                        sh:property [
-                                    sh:path cto:isAtomOfElement ;
-                                    sh:node [
-                                                sh:targetClass cto:element ;
-                                                sh:property [
-                                                            sh:path cto:isElementType ;
-                                                            
-                                                            ]
-                                                    ;
-                                            ]
-                                        ;
-                                    ]
-                                ;
-                        ]
-                    ;
-              ]
-        ;
-.
-
-mol:carbonAtom
-    sh:path cto:isElement ;
-    sh:class mol:carbonElement ;
-.
-
-mol:carbonElement
-    sh:class cto:element ;
-    sh:targetObjectsOf cea:CHEBI_33415 ;
-.
-
-mol:oxygenAtom
-    sh:path cto:isAtomOfElement ;
-    sh:class mol:oxygenElement ;
-.
-
-mol:oxygenElement
-    sh:class cto:element ;
-    sh:targetObjectsOf cea:obo:;
+cto:ChiralAtom
+	a sh:NodeShape ;
+	sh:targetClass cto:atom ;
+	sh:property [
+		sh:path cto:hasBondedAtom ;
+		sh:qualifiedValueShapesDisjoint true ;
+		sh:minCount 4 ;
+		sh:maxCount 4 ;
+	] ;
+    sh:property [
+		sh:path cto:hasBondOrder ;
+		sh:value 1 ;
+	] ;
 .
