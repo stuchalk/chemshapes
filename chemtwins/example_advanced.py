@@ -6,7 +6,7 @@ data_file = '../static/twins/ethanal_min.jsonld'
 data_file = path.abspath(data_file)
 data_file_format = 'json-ld'
 
-shapes_file = 'moleculeShape.ttl'
+shapes_file = 'ShapesChemTwinAdvanced.ttl'
 shapes_file = path.abspath(shapes_file)
 shapes_file_format = 'turtle'
 
@@ -15,6 +15,4 @@ conforms, v_graph, v_text = validate(data_file, shacl_graph=shapes_file,
                                      shacl_graph_format=shapes_file_format,
                                      inference='rdfs', debug=True,
                                      serialize_report_graph=True)
-print(conforms)
-print(v_graph)
 print(v_text)

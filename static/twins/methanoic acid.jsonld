@@ -188,7 +188,7 @@
                                     "@id": "bond/1/",
                                     "@type": "ss:SIO_011118",
                                     "order": "1",
-                                    "atoms": [
+                                    "bondedatoms": [
                                         "atom/1/",
                                         "atom/3/"
                                     ]
@@ -197,7 +197,7 @@
                                     "@id": "bond/2/",
                                     "@type": "ss:SIO_011118",
                                     "order": "1",
-                                    "atoms": [
+                                    "bondedatoms": [
                                         "atom/1/",
                                         "atom/5/"
                                     ]
@@ -206,7 +206,7 @@
                                     "@id": "bond/3/",
                                     "@type": "ss:SIO_011118",
                                     "order": "2",
-                                    "atoms": [
+                                    "bondedatoms": [
                                         "atom/2/",
                                         "atom/3/"
                                     ]
@@ -215,7 +215,7 @@
                                     "@id": "bond/4/",
                                     "@type": "ss:SIO_011118",
                                     "order": "1",
-                                    "atoms": [
+                                    "bondedatoms": [
                                         "atom/3/",
                                         "atom/4/"
                                     ]

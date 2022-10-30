@@ -1,0 +1,170 @@
+{
+    "@context": [
+        "https://stuchalk.github.io/scidata/contexts/scidata.jsonld",
+        "https://stuchalk.github.io/scidata/contexts/chemtwin.jsonld",
+        {
+            "sdo": "https://stuchalk.github.io/scidata/ontology/scidata.owl#",
+            "cto": "https://stuchalk.github.io/scidata/ontology/chemtwin.owl#",
+            "obo": "http://purl.obolibrary.org/obo/",
+            "ss": "https://semanticscience.org/resource/",
+            "atc": "http://purl.bioontology.org/ontology/ATC/",
+            "w3i": "https://w3id.org/skgo/modsci#"
+        },
+        {"@base": "https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/"}
+    ],
+    "@id": "https://scidata.unf.edu/facet/00008344",
+    "generatedAt": "2021-07-07 09:00:03.054770",
+    "version": 2,
+    "@graph": {
+        "@id": "https://scidata.unf.edu/chemtwin_IKHGUXGNUITLKF-UHFFFAOYSA-N/",
+        "@type": "sdo:scidataFramework",
+        "scidata": {
+            "@id": "scidata/",
+            "@type": "sdo:scientificData",
+            "discipline": "w3i:Chemistry",
+            "system": {
+                "@id": "system/",
+                "@type": "sdo:system",
+                "facets": [
+                    {
+                        "@id": "substance/1/",
+                        "@type": "sdo:substance",
+                        "molgraph": {
+                            "@id": "molgraph/",
+                            "@type": "ss:CHEMINF_000022",
+                            "elements": [
+                                {
+                                    "@id": "element/1/",
+                                    "@type": "cto:element",
+                                    "iupacname": "Oxygen",
+                                    "elementType": "obo:CHEBI_25805"
+                                },
+                                {
+                                    "@id": "element/2/",
+                                    "@type": "cto:element",
+                                    "iupacname": "Carbon",
+                                    "elementType": "obo:CHEBI_27594"
+                                },
+                                {
+                                    "@id": "element/3/",
+                                    "@type": "cto:element",
+                                    "iupacname": "Hydrogen",
+                                    "elementType": "obo:CHEBI_49637"
+                                }
+                            ],
+                            "atoms": [
+                                {
+                                    "@id": "atom/1/",
+                                    "@type": "cto:atom",
+                                    "element": "element/1/",
+                                    "doublebonds": 1,
+                                    "charge": 0
+                                },
+                                {
+                                    "@id": "atom/2/",
+                                    "@type": "cto:atom",
+                                    "element": "element/2/",
+                                    "singlebonds": 4,
+                                    "charge": 0
+                                },
+                                {
+                                    "@id": "atom/3/",
+                                    "@type": "cto:atom",
+                                    "element": "element/2/",
+                                    "singlebonds": 2,
+                                    "doublebonds": 1,
+                                    "charge": 0
+                                },
+                                {
+                                    "@id": "atom/4/",
+                                    "@type": "cto:atom",
+                                    "element": "element/3/",
+                                    "singlebonds": 1,
+                                    "charge": 0
+                                },
+                                {
+                                    "@id": "atom/5/",
+                                    "@type": "cto:atom",
+                                    "element": "element/3/",
+                                    "singlebonds": 1,
+                                    "charge": 0
+                                },
+                                {
+                                    "@id": "atom/6/",
+                                    "@type": "cto:atom",
+                                    "element": "element/3/",
+                                    "singlebonds": 1,
+                                    "charge": 0
+                                },
+                                {
+                                    "@id": "atom/7/",
+                                    "@type": "cto:atom",
+                                    "element": "element/3/",
+                                    "singlebonds": 1,
+                                    "charge": 0
+                                }
+                            ],
+                            "bonds": [
+                                {
+                                    "@id": "bond/1/",
+                                    "@type": "cto:bond",
+                                    "order": "2",
+                                    "bondedatoms": [
+                                        "atom/1/",
+                                        "atom/3/"
+                                    ]
+                                },
+                                {
+                                    "@id": "bond/2/",
+                                    "@type": "cto:bond",
+                                    "order": "1",
+                                    "bondedatoms": [
+                                        "atom/1/",
+                                        "atom/2/",
+                                        "atom/3/"
+                                    ]
+                                },
+                                {
+                                    "@id": "bond/3/",
+                                    "@type": "cto:bond",
+                                    "order": "1",
+                                    "bondedatoms": [
+                                        "atom/2/",
+                                        "atom/4/"
+                                    ]
+                                },
+                                {
+                                    "@id": "bond/4/",
+                                    "@type": "cto:bond",
+                                    "order": "1",
+                                    "bondedatoms": [
+                                        "atom/2/",
+                                        "atom/5/"
+                                    ]
+                                },
+                                {
+                                    "@id": "bond/5/",
+                                    "@type": "cto:bond",
+                                    "order": "1",
+                                    "bondedatoms": [
+                                        "atom/2/",
+                                        "atom/6/"
+                                    ]
+                                },
+                                {
+                                    "@id": "bond/6/",
+                                    "@type": "cto:bond",
+                                    "order": "1",
+                                    "bondedatoms": [
+                                        "atom/3/",
+                                        "atom/7/"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

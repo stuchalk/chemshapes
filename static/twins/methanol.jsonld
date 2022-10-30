@@ -117,19 +117,19 @@
                                     "@id": "element/1/",
                                     "@type": "obo:NCIT_C1940",
                                     "iupacname": "Oxygen",
-                                    "element": "obo:CHEBI_25805"
+                                    "elementType": "obo:CHEBI_25805"
                                 },
                                 {
                                     "@id": "element/2/",
                                     "@type": "obo:NCIT_C1940",
                                     "iupacname": "Carbon",
-                                    "element": "obo:CHEBI_27594"
+                                    "elementType": "obo:CHEBI_27594"
                                 },
                                 {
                                     "@id": "element/3/",
                                     "@type": "obo:NCIT_C1940",
                                     "iupacname": "Hydrogen",
-                                    "element": "obo:CHEBI_49637"
+                                    "elementType": "obo:CHEBI_49637"
                                 }
                             ],
                             "atoms": [

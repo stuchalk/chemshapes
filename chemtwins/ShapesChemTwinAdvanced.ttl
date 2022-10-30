@@ -1,0 +1,71 @@
+@prefix ceo: <https://stuchalk.github.io/scidata/ontology/chemelements.owl#> .
+@prefix cto: <https://stuchalk.github.io/scidata/ontology/chemtwin.owl#> .
+@prefix chi: <http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl#> .
+@prefix obo: <https://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://stuchalk.github.io/scidata/chemshapes>
+    a owl:Ontology ;
+    rdfs:isDefinedBy <https://stuchalk.github.io/scidata/ontology/chemtwin.owl> ;
+    rdfs:label "ChemTwin Ontology" ;
+	sh:declare [
+		sh:prefix "cto" ;
+		sh:namespace "https://stuchalk.github.io/scidata/ontology/chemtwin.owl#"^^xsd:anyURI ;
+	] ;
+	sh:declare [
+		sh:prefix "chi" ;
+		sh:namespace "https://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl#"^^xsd:anyURI ;
+	] ;
+	sh:declare [
+		sh:prefix "obo" ;
+		sh:namespace "https://purl.obolibrary.org/obo/"^^xsd:anyURI ;
+	] ;
+.
+
+cto:SingleBond
+	a sh:NodeShape ;
+	sh:targetClass cto:bond ;
+	sh:property [
+		sh:path cto:hasBondOrder ;
+		sh:value 1 ;
+	] ;
+	sh:property [
+		sh:path cto:hasBondedAtom ;
+		sh:minCount 2 ;
+		sh:maxCount 2 ;
+	]
+.
+
+cto:CarbonElement
+	a sh:NodeShape ;
+	sh:targetClass cto:element ;
+	sh:property [
+		sh:path cto:isElementType ;
+		sh:class obo:CHEBI_33415 ;
+		sh:nodeKind sh:IRI ;
+	] ;
+.
+
+cto:CarbonAtom
+	a sh:NodeShape ;
+	sh:targetClass cto:atom ;
+	sh:property [
+		sh:path cto:isAtomOfElement ;
+		sh:class cto:CarbonElement ;
+	] ;
+.
+
+cto:Sp3Carbon
+	a sh:NodeShape ;
+	sh:targetClass cto:CarbonAtom  ;
+	sh:property [
+		sh:path cto:isBondedAtomOf ;
+		sh:class cto:SingleBond ;
+		sh:minCount 4 ;
+		sh:maxCount 4 ;
+	] ;
+.
