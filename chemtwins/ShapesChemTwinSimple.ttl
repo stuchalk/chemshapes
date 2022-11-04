@@ -1,4 +1,5 @@
-@prefix cea: <https://stuchalk.github.io/scidata/ontology/chemelements.owl#> .
+#@prefix cea: <https://stuchalk.github.io/scidata/ontology/chemelements.owl#> .
+@prefix chs: <https://stuchalk.github.io/scidata/chemshapes#> .
 @prefix cto: <https://stuchalk.github.io/scidata/ontology/chemtwin.owl#> .
 @prefix chi: <http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -6,11 +7,12 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
 
 <https://stuchalk.github.io/scidata/chemshapes>
     a owl:Ontology ;
-    rdfs:isDefinedBy <https://stuchalk.github.io/scidata/ontology/chemtwin.owl> ;
-    rdfs:label "ChemTwin Ontology" ;
+    rdfs:isDefinedBy <https://stuchalk.github.io/scidata/chemshapes> ;
+    rdfs:label "ChemTwin Shapes" ;
 	sh:declare [
 		sh:prefix "cto" ;
 		sh:namespace "https://stuchalk.github.io/scidata/ontology/chemtwin.owl#"^^xsd:anyURI ;
@@ -21,7 +23,7 @@
 	] ;
 .
 
-cto:SingleBond
+chs:SingleBond
 	a sh:NodeShape ;
 	sh:targetClass cto:bond ;
 	sh:property [
@@ -35,7 +37,7 @@ cto:SingleBond
 	]
 .
 
-cto:DoubleBond
+chs:DoubleBond
 	a sh:NodeShape ;
 	sh:targetClass cto:bond ;
 	sh:property [
@@ -46,5 +48,54 @@ cto:DoubleBond
 		sh:path cto:hasBondedAtom ;
 		sh:minCount 2 ;
 		sh:maxCount 2 ;
+	]
+.
+
+chs:CarbonElement
+	a sh:NodeShape ;
+	sh:targetClass cto:element ;
+	sh:property [
+		sh:path cto:isElementType ;
+		sh:node obo:CHEBI_27594 ;
+	]
+.
+
+chs:CarbonAtom
+	a sh:NodeShape ;
+	sh:targetClass cto:atom ;
+	sh:property [
+		sh:path cto:isAtomOfElement ;
+		sh:target chs:CarbonElement ;
+	]
+.
+
+chs:OxygenElement
+	a sh:NodeShape ;
+	sh:targetClass cto:element ;
+	sh:property [
+		sh:path cto:isElementType ;
+		sh:node obo:CHEBI_25805 ;
+	]
+.
+
+chs:OxygenAtom
+	a sh:NodeShape ;
+	sh:targetClass cto:atom ;
+	sh:property [
+		sh:path cto:isAtomOfElement ;
+		sh:target chs:OxygenElement ;
+	]
+.
+
+chs:CarbonylBond
+	a sh:NodeShape ;
+	sh:targetClass chs:DoubleBond ;
+	sh:property [
+		sh:path cto:hasBondedAtom ;
+		sh:node chs:CarbonAtom ;
+	] ;
+	sh:property [
+		sh:path cto:hasBondedAtom ;
+		sh:node chs:OxygenAtom ;
 	]
 .
