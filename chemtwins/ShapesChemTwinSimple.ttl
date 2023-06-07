@@ -1,13 +1,13 @@
-#@prefix cea: <https://stuchalk.github.io/scidata/ontology/chemelements.owl#> .
-@prefix chs: <https://stuchalk.github.io/scidata/chemshapes#> .
-@prefix cto: <https://stuchalk.github.io/scidata/ontology/chemtwin.owl#> .
+@prefix cea: <https://stuchalk.github.io/scidata/ontology/chemelements.owl#> .
+@prefix chs: <https://stuchalk.github.io/scidata/chemshapes> .
+@prefix cto: <https://stuchalk.github.io/scidata/ontology/chemtwin.ttl#> .
 @prefix chi: <http://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix obo: <http://purl.obolibrary.org/obo/> .
+
 
 <https://stuchalk.github.io/scidata/chemshapes>
     a owl:Ontology ;
@@ -15,11 +15,15 @@
     rdfs:label "ChemTwin Shapes" ;
 	sh:declare [
 		sh:prefix "cto" ;
-		sh:namespace "https://stuchalk.github.io/scidata/ontology/chemtwin.owl#"^^xsd:anyURI ;
+		sh:namespace "https://stuchalk.github.io/scidata/ontology/chemtwin.ttl#"^^xsd:anyURI ;
 	] ;
 	sh:declare [
 		sh:prefix "chi" ;
 		sh:namespace "https://semanticchemistry.github.io/semanticchemistry/ontology/cheminf.owl#"^^xsd:anyURI ;
+	] ;
+	sh:declare [
+		sh:prefix "cea" ;
+		sh:namespace "https://stuchalk.github.io/scidata/ontology/chemelements.owl#"^^xsd:anyURI ;
 	] ;
 .
 
@@ -56,7 +60,7 @@ chs:CarbonElement
 	sh:targetClass cto:element ;
 	sh:property [
 		sh:path cto:isElementType ;
-		sh:node obo:CHEBI_27594 ;
+		sh:node cea:CHEBI_27594 ;
 	]
 .
 
@@ -74,7 +78,7 @@ chs:OxygenElement
 	sh:targetClass cto:element ;
 	sh:property [
 		sh:path cto:isElementType ;
-		sh:node obo:CHEBI_25805 ;
+		sh:node cea:CHEBI_25805 ;
 	]
 .
 

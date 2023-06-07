@@ -2,7 +2,7 @@
 from pyshacl import validate
 from os import path
 
-data_file = '../static/twins/ethanal_min_bad.jsonld'
+data_file = '../static/twins/ethanal_min.jsonld'
 data_file = path.abspath(data_file)
 data_file_format = 'json-ld'
 
